@@ -27,8 +27,6 @@ dependencies {
     annotationProcessor(libs.lombok)
     annotationProcessor(libs.spring.boot.configuration.processor)
     testImplementation(libs.spring.boot.starter.test)
-    testImplementation("org.junit.jupiter:junit-jupiter:5.5.0")
-    testImplementation("com.jayway.jsonpath:json-path")
 }
 
 // about source and compilation
